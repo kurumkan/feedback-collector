@@ -21,7 +21,7 @@ export const sendServey = (values, history) => async dispatch => {
   const res = await axios.post('/api/serveys/', values);
   dispatch({
     type: FETCH_USER,
-    user: res.data
+    payload: res.data
   });
   history.push('/serveys');
 };
