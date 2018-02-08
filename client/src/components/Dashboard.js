@@ -6,7 +6,7 @@ const Dashboard = (props) => {
   return (
     <div>
       <ServeyList />
-      <div className="fixed-action-btn">
+      <div className="fixed-action-btn" style={{right: '10%'}}>
         <Link to="serveys/new" className="btn-floating btn-large waves-effect waves-light red">
           <i className="material-icons">add</i>
         </Link>
