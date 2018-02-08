@@ -9,10 +9,10 @@ module.exports = (servey) => {
                     ${servey.body}
                 </p>
                 <div>
-                    <a href="${keys.redirectDomain}/api/serveys/thanks">Yes</a>
+                    <a href="${keys.redirectDomain}/api/serveys/${servey.id}/yes">Yes</a>
                 </div>
                  <div>
-                    <a href="${keys.redirectDomain}/api/serveys/thanks">No</a>
+                    <a href="${keys.redirectDomain}/api/serveys/${servey.id}/no">No</a>
                 </div>
             </div>
         </body>
